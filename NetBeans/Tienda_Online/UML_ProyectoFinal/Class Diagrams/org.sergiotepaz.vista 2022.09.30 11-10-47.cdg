@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="org.sergiotepaz.vista">
+  <ClassDiagramComponents>
+    <Class name="HistorialVentas" package="org.sergiotepaz.vista" visibility="public" xPosition="1531.0" yPosition="1149.0">
+      <Fields>
+        <Field name="controlador" type="ControlDeVenta" visibility="public"/>
+        <Field name="jScrollPane1" type="javax.swing.JScrollPane" visibility="private"/>
+        <Field name="tablaDeVentas" type="javax.swing.JTable" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="mostrarDatosDeVentas" returnType="void" visibility="public"/>
+        <Method name="initComponents" returnType="// &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;Generated Code&quot;&gt;//GEN-BEGIN:initComponents void" visibility="private"/>
+      </Methods>
+    </Class>
+    <Class name="Login" package="org.sergiotepaz.vista" visibility="public" xPosition="22.0" yPosition="20.0">
+      <Fields>
+        <Field name="Ingresar" type="javax.swing.JButton" visibility="private"/>
+        <Field name="Registrar" type="javax.swing.JButton" visibility="private"/>
+        <Field name="Salir" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jLabel1" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jPanel1" type="javax.swing.JPanel" visibility="private"/>
+        <Field name="lblPassword" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="lblUsuario" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="txtPassword" type="javax.swing.JPasswordField" visibility="private"/>
+        <Field name="txtUsuario" type="javax.swing.JTextField" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="lookAndFeel" returnType="void" visibility="public"/>
+        <Method name="initComponents" returnType="// &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;Generated Code&quot;&gt;//GEN-BEGIN:initComponents void" visibility="private"/>
+        <Method name="RegistrarActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="SalirActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="IngresarActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Registro" package="org.sergiotepaz.vista" visibility="public" xPosition="1531.0" yPosition="20.0">
+      <Fields>
+        <Field name="cliente" type="Cliente" visibility="package"/>
+        <Field name="controlador_cliente" type="ControlDeCliente" visibility="public"/>
+        <Field name="usuario" type="Usuario" visibility="package"/>
+        <Field name="controlador_usuario" type="ControlDeUsuario" visibility="public"/>
+        <Field name="Agregar" type="javax.swing.JButton" visibility="private"/>
+        <Field name="Regresar" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jLabel1" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jPanel1" type="javax.swing.JPanel" visibility="private"/>
+        <Field name="lblApellido" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="lblDireccion" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="lblIdCliente" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="lblNombre" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="lblNuevaContra" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="lblNuevoUsuario" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="lblTelefono" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="txtApellido" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="txtDireccion" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="txtIdCliente" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="txtNombre" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="txtNuevoUsuario" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="txtPassword" type="javax.swing.JPasswordField" visibility="private"/>
+        <Field name="txtTelefono" type="javax.swing.JTextField" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="lookAndFeel" returnType="void" visibility="public"/>
+        <Method name="initComponents" returnType="// &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;Generated Code&quot;&gt;//GEN-BEGIN:initComponents void" visibility="private"/>
+        <Method name="AgregarActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="RegresarActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="VentanaAdministradror" package="org.sergiotepaz.vista" visibility="public" xPosition="758.0" yPosition="20.0">
+      <Fields>
+        <Field name="instanciaCliente" type="VistaCliente" visibility="private"/>
+        <Field name="instanciaUsuario" type="VistaUsuario" visibility="private"/>
+        <Field name="instanciaProveedor" type="VistaProveedor" visibility="private"/>
+        <Field name="instanciaProducto" type="VistaProducto" visibility="private"/>
+        <Field name="instanciaCompra" type="VistaCompra" visibility="private"/>
+        <Field name="Cliente" type="javax.swing.JMenuItem" visibility="private"/>
+        <Field name="Compra" type="javax.swing.JMenuItem" visibility="private"/>
+        <Field name="MenuCliente" type="javax.swing.JMenu" visibility="private"/>
+        <Field name="MenuCompra" type="javax.swing.JMenu" visibility="private"/>
+        <Field name="MenuPrincipal" type="javax.swing.JMenuBar" visibility="private"/>
+        <Field name="MenuProducto" type="javax.swing.JMenu" visibility="private"/>
+        <Field name="MenuProveedor" type="javax.swing.JMenu" visibility="private"/>
+        <Field name="MenuUsuario" type="javax.swing.JMenu" visibility="private"/>
+        <Field name="Producto" type="javax.swing.JMenuItem" visibility="private"/>
+        <Field name="Proveedor" type="javax.swing.JMenuItem" visibility="private"/>
+        <Field name="Usuario" type="javax.swing.JMenuItem" visibility="private"/>
+        <Field name="btnRegresar" type="javax.swing.JButton" visibility="private"/>
+        <Field name="panel" type="javax.swing.JDesktopPane" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="lookAndFeel" returnType="void" visibility="public"/>
+        <Method name="getInstanciaCliente" returnType="VistaCliente" visibility="public" isSynchronized="true"/>
+        <Method name="getInstanciaUsuario" returnType="VistaUsuario" visibility="public" isSynchronized="true"/>
+        <Method name="getInstanciaProveedor" returnType="VistaProveedor" visibility="public" isSynchronized="true"/>
+        <Method name="getInstanciaProducto" returnType="VistaProducto" visibility="public" isSynchronized="true"/>
+        <Method name="getInstanciaCompra" returnType="VistaCompra" visibility="public" isSynchronized="true"/>
+        <Method name="initComponents" returnType="// &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;Generated Code&quot;&gt;//GEN-BEGIN:initComponents void" visibility="private"/>
+        <Method name="ClienteActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="btnRegresarActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="UsuarioActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="ProveedorActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="ProductoActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="CompraActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="VentanaCliente" package="org.sergiotepaz.vista" visibility="public" xPosition="1531.0" yPosition="652.0">
+      <Fields>
+        <Field name="instanciaVerProductos" type="VerProductos" visibility="private"/>
+        <Field name="instanciaVistaVenta" type="VistaVenta" visibility="private"/>
+        <Field name="instanciaHistorialVentas" type="HistorialVentas" visibility="private"/>
+        <Field name="ComprarProductos" type="javax.swing.JMenuItem" visibility="private"/>
+        <Field name="Historial" type="javax.swing.JMenuItem" visibility="private"/>
+        <Field name="MenuHistorial" type="javax.swing.JMenu" visibility="private"/>
+        <Field name="MenuPrincipal" type="javax.swing.JMenuBar" visibility="private"/>
+        <Field name="MenuProductos" type="javax.swing.JMenu" visibility="private"/>
+        <Field name="VerProductos" type="javax.swing.JMenuItem" visibility="private"/>
+        <Field name="btnRegresar" type="javax.swing.JButton" visibility="private"/>
+        <Field name="panel" type="javax.swing.JDesktopPane" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="getInstanciaVerProductos" returnType="VerProductos" visibility="public" isSynchronized="true"/>
+        <Method name="getInstanciaVistaVenta" returnType="VistaVenta" visibility="public" isSynchronized="true"/>
+        <Method name="getInstanciaHistorialVentas" returnType="HistorialVentas" visibility="public" isSynchronized="true"/>
+        <Method name="initComponents" returnType="// &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;Generated Code&quot;&gt;//GEN-BEGIN:initComponents void" visibility="private"/>
+        <Method name="btnRegresarActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="VerProductosActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="ComprarProductosActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="HistorialActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="VerProductos" package="org.sergiotepaz.vista" visibility="public" xPosition="1531.0" yPosition="1407.0">
+      <Fields>
+        <Field name="controlador" type="ControlDeProducto" visibility="public"/>
+        <Field name="scrollPanelTablaDeClientes" type="javax.swing.JScrollPane" visibility="private"/>
+        <Field name="tablaDeProductos" type="javax.swing.JTable" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="mostrarDatosDeProductos" returnType="void" visibility="public"/>
+        <Method name="initComponents" returnType="// &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;Generated Code&quot;&gt;//GEN-BEGIN:initComponents void" visibility="private"/>
+      </Methods>
+    </Class>
+    <Class name="VistaCliente" package="org.sergiotepaz.vista" visibility="public" xPosition="1531.0" yPosition="1644.0">
+      <Fields>
+        <Field name="clienteActualizado" type="Cliente" visibility="package"/>
+        <Field name="clienteAntiguo" type="Cliente" visibility="package"/>
+        <Field name="controlador" type="ControlDeCliente" visibility="public"/>
+        <Field name="btnActualizar" type="javax.swing.JButton" visibility="private"/>
+        <Field name="btnBuscar" type="javax.swing.JButton" visibility="private"/>
+        <Field name="btnEliminar" type="javax.swing.JButton" visibility="private"/>
+        <Field name="btnSalir" type="javax.swing.JButton" visibility="private"/>
+        <Field name="lblApellido" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="lblDireccion" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="lblIdCliente" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="lblNombre" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="lblTelefono" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="lblUsuario" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="txtApellido" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="txtBuscar" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="txtDireccion" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="txtIdCliente" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="txtNombre" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="txtTelefono" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="txtUsuario" type="javax.swing.JTextField" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="initComponents" returnType="// &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;Generated Code&quot;&gt;//GEN-BEGIN:initComponents void" visibility="private"/>
+        <Method name="btnActualizarActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="btnEliminarActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="btnBuscarActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="btnSalirActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="VistaCompra" package="org.sergiotepaz.vista" visibility="public" xPosition="33.0" yPosition="1500.0">
+      <Fields>
+        <Field name="compra" type="Compra" visibility="package"/>
+        <Field name="compraAntigua" type="Compra" visibility="package"/>
+        <Field name="compraActualizada" type="Compra" visibility="package"/>
+        <Field name="compraEliminada" type="Compra" visibility="package"/>
+        <Field name="controlador" type="ControlDeCompra" visibility="public"/>
+        <Field name="btnActualizar" type="javax.swing.JButton" visibility="private"/>
+        <Field name="btnAgregar" type="javax.swing.JButton" visibility="private"/>
+        <Field name="btnBuscar" type="javax.swing.JButton" visibility="private"/>
+        <Field name="btnEliminar" type="javax.swing.JButton" visibility="private"/>
+        <Field name="btnSalir" type="javax.swing.JButton" visibility="private"/>
+        <Field name="lblCantidad" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="lblFecha" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="lblIdCompra" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="lblIdProducto" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="txtBuscar" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="txtCantidad" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="txtFecha" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="txtIdCompra" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="txtIdProducto" type="javax.swing.JTextField" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="initComponents" returnType="// &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;Generated Code&quot;&gt;//GEN-BEGIN:initComponents void" visibility="private"/>
+        <Method name="btnSalirActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="btnAgregarActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="btnActualizarActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="btnEliminarActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="btnBuscarActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="VistaProducto" package="org.sergiotepaz.vista" visibility="public" xPosition="33.0" yPosition="420.0">
+      <Fields>
+        <Field name="productoActualizado" type="Producto" visibility="package"/>
+        <Field name="productoAntiguo" type="Producto" visibility="package"/>
+        <Field name="controlador" type="ControlDeProducto" visibility="public"/>
+        <Field name="btnActualizar" type="javax.swing.JButton" visibility="private"/>
+        <Field name="btnAgregar" type="javax.swing.JButton" visibility="private"/>
+        <Field name="btnBuscar" type="javax.swing.JButton" visibility="private"/>
+        <Field name="btnEliminar" type="javax.swing.JButton" visibility="private"/>
+        <Field name="btnSalir" type="javax.swing.JButton" visibility="private"/>
+        <Field name="lblIdProducto" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="lblIdProveedor" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="lblPrecio" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="lblProducto" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="txtBuscar" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="txtIdProducto" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="txtIdProveedor" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="txtPrecio" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="txtProducto" type="javax.swing.JTextField" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="initComponents" returnType="// &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;Generated Code&quot;&gt;//GEN-BEGIN:initComponents void" visibility="private"/>
+        <Method name="btnAgregarActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="btnSalirActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="btnActualizarActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="btnEliminarActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="btnBuscarActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="VistaProveedor" package="org.sergiotepaz.vista" visibility="public" xPosition="33.0" yPosition="992.0">
+      <Fields>
+        <Field name="proveedorActualizado" type="Proveedor" visibility="package"/>
+        <Field name="proveedorAntiguo" type="Proveedor" visibility="package"/>
+        <Field name="controlador" type="ControlDeProveedor" visibility="public"/>
+        <Field name="btnActualizar" type="javax.swing.JButton" visibility="private"/>
+        <Field name="btnAgregar" type="javax.swing.JButton" visibility="private"/>
+        <Field name="btnBuscar" type="javax.swing.JButton" visibility="private"/>
+        <Field name="btnEliminar" type="javax.swing.JButton" visibility="private"/>
+        <Field name="btnSalir" type="javax.swing.JButton" visibility="private"/>
+        <Field name="lblIdProveedor" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="lblProveedor" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="txtBuscar" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="txtIdProveedor" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="txtProveedor" type="javax.swing.JTextField" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="initComponents" returnType="// &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;Generated Code&quot;&gt;//GEN-BEGIN:initComponents void" visibility="private"/>
+        <Method name="btnSalirActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="btnActualizarActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="btnAgregarActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="btnEliminarActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="btnBuscarActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="VistaUsuario" package="org.sergiotepaz.vista" visibility="public" xPosition="758.0" yPosition="849.0">
+      <Fields>
+        <Field name="usuarioActualizado" type="Usuario" visibility="package"/>
+        <Field name="usuarioAntiguo" type="Usuario" visibility="package"/>
+        <Field name="controlador" type="ControlDeUsuario" visibility="public"/>
+        <Field name="btnActualizar" type="javax.swing.JButton" visibility="private"/>
+        <Field name="btnBuscar" type="javax.swing.JButton" visibility="private"/>
+        <Field name="btnEliminar" type="javax.swing.JButton" visibility="private"/>
+        <Field name="btnSalir" type="javax.swing.JButton" visibility="private"/>
+        <Field name="lblIdCliente" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="lblIdUsuario" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="lblPassword" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="lblRol" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="lblUsuario" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="txtBuscar" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="txtIdCliente" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="txtIdUsuario" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="txtPassword" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="txtRol" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="txtUsuario" type="javax.swing.JTextField" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="initComponents" returnType="// &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;Generated Code&quot;&gt;//GEN-BEGIN:initComponents void" visibility="private"/>
+        <Method name="txtIdClienteActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="btnActualizarActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="btnEliminarActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="btnSalirActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="btnBuscarActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="VistaVenta" package="org.sergiotepaz.vista" visibility="public" xPosition="758.0" yPosition="1482.0">
+      <Fields>
+        <Field name="venta" type="Venta" visibility="package"/>
+        <Field name="controlador" type="ControlDeVenta" visibility="public"/>
+        <Field name="btnComprar" type="javax.swing.JButton" visibility="private"/>
+        <Field name="btnSalir" type="javax.swing.JButton" visibility="private"/>
+        <Field name="lblCantidad" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="lblFecha" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="lblIdCliente" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="lblIdProducto" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="lblIdVenta" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="txtCantidad" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="txtFecha" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="txtIdCliente" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="txtIdCompra" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="txtIdProducto" type="javax.swing.JTextField" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="initComponents" returnType="// &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;Generated Code&quot;&gt;//GEN-BEGIN:initComponents void" visibility="private"/>
+        <Method name="btnSalirActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="btnComprarActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations>
+    <UseRelation source="org.sergiotepaz.vista.VentanaAdministradror" target="org.sergiotepaz.vista.VistaCompra" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="instanciaVistaVenta" source="org.sergiotepaz.vista.VentanaCliente" target="org.sergiotepaz.vista.VistaVenta" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="instanciaHistorialVentas" source="org.sergiotepaz.vista.VentanaCliente" target="org.sergiotepaz.vista.HistorialVentas" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="org.sergiotepaz.vista.VentanaAdministradror" target="org.sergiotepaz.vista.VistaProveedor" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="org.sergiotepaz.vista.VentanaCliente" target="org.sergiotepaz.vista.HistorialVentas" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="org.sergiotepaz.vista.VentanaAdministradror" target="org.sergiotepaz.vista.VistaCliente" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="instanciaVerProductos" source="org.sergiotepaz.vista.VentanaCliente" target="org.sergiotepaz.vista.VerProductos" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="instanciaProveedor" source="org.sergiotepaz.vista.VentanaAdministradror" target="org.sergiotepaz.vista.VistaProveedor" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="instanciaUsuario" source="org.sergiotepaz.vista.VentanaAdministradror" target="org.sergiotepaz.vista.VistaUsuario" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="org.sergiotepaz.vista.VentanaCliente" target="org.sergiotepaz.vista.VistaVenta" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="instanciaCliente" source="org.sergiotepaz.vista.VentanaAdministradror" target="org.sergiotepaz.vista.VistaCliente" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="org.sergiotepaz.vista.VentanaCliente" target="org.sergiotepaz.vista.VerProductos" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="org.sergiotepaz.vista.VentanaAdministradror" target="org.sergiotepaz.vista.VistaProducto" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="instanciaProducto" source="org.sergiotepaz.vista.VentanaAdministradror" target="org.sergiotepaz.vista.VistaProducto" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="instanciaCompra" source="org.sergiotepaz.vista.VentanaAdministradror" target="org.sergiotepaz.vista.VistaCompra" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="org.sergiotepaz.vista.VentanaAdministradror" target="org.sergiotepaz.vista.VistaUsuario" sourceCardinality="1..1" targetCardinality="1..1"/>
+  </ClassDiagramRelations>
+</ClassDiagram>

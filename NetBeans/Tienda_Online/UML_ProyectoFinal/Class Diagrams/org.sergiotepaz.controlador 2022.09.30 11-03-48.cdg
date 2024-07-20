@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="org.sergiotepaz.controlador">
+  <ClassDiagramComponents>
+    <Class name="ControlDeCliente" package="org.sergiotepaz.controlador" visibility="public" xPosition="20.0" yPosition="20.0">
+      <Fields>
+        <Field name="instancia" type="ControlDeCliente" visibility="private" isStatic="true"/>
+        <Field name="clientes" type="ArrayList&lt;Cliente&gt;" visibility="private" isStatic="true"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="getInstancia" returnType="ControlDeCliente" visibility="public" isStatic="true"/>
+        <Method name="mostrarClientes" returnType="ArrayList&lt;Cliente&gt;" visibility="public"/>
+        <Method name="ListaDeClientes" returnType="int" visibility="public"/>
+        <Method name="agregarCliente" returnType="void" visibility="public">
+          <Argument type="Cliente" name="cliente"/>
+        </Method>
+        <Method name="actualizarCliente" returnType="void" visibility="public">
+          <Argument type="Cliente" name="clienteAntiguo"/>
+          <Argument type="Cliente" name="clienteActualizado"/>
+        </Method>
+        <Method name="buscarCliente" returnType="Cliente" visibility="public">
+          <Argument type="int" name="id"/>
+        </Method>
+        <Method name="eliminarCliente" returnType="void" visibility="public">
+          <Argument type="Cliente" name="clienteEliminado"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="ControlDeCompra" package="org.sergiotepaz.controlador" visibility="public" xPosition="542.0" yPosition="10.0">
+      <Fields>
+        <Field name="instancia" type="ControlDeCompra" visibility="private" isStatic="true"/>
+        <Field name="compras" type="ArrayList&lt;Compra&gt;" visibility="private" isStatic="true"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="getInstancia" returnType="ControlDeCompra" visibility="public" isStatic="true"/>
+        <Method name="mostrarCompras" returnType="ArrayList&lt;Compra&gt;" visibility="public"/>
+        <Method name="ListaDeCompras" returnType="int" visibility="public"/>
+        <Method name="agregarCompra" returnType="void" visibility="public">
+          <Argument type="Compra" name="compra"/>
+        </Method>
+        <Method name="actualizarCompra" returnType="void" visibility="public">
+          <Argument type="Compra" name="compraAntigua"/>
+          <Argument type="Compra" name="compraActualizada"/>
+        </Method>
+        <Method name="buscarCompra" returnType="Compra" visibility="public">
+          <Argument type="int" name="id"/>
+        </Method>
+        <Method name="eliminarCompra" returnType="void" visibility="public">
+          <Argument type="Compra" name="compraEliminada"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="ControlDeProducto" package="org.sergiotepaz.controlador" visibility="public" xPosition="20.0" yPosition="395.0">
+      <Fields>
+        <Field name="instancia" type="ControlDeProducto" visibility="private" isStatic="true"/>
+        <Field name="productos" type="ArrayList&lt;Producto&gt;" visibility="private" isStatic="true"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="getInstancia" returnType="ControlDeProducto" visibility="public" isStatic="true"/>
+        <Method name="mostrarProductos" returnType="ArrayList&lt;Producto&gt;" visibility="public"/>
+        <Method name="ListaDeProductos" returnType="int" visibility="public"/>
+        <Method name="agregarProducto" returnType="void" visibility="public">
+          <Argument type="Producto" name="producto"/>
+        </Method>
+        <Method name="actualizarProducto" returnType="void" visibility="public">
+          <Argument type="Producto" name="productoAntiguo"/>
+          <Argument type="Producto" name="productoActualizado"/>
+        </Method>
+        <Method name="buscarProducto" returnType="Producto" visibility="public">
+          <Argument type="int" name="id"/>
+        </Method>
+        <Method name="eliminarProducto" returnType="void" visibility="public">
+          <Argument type="Producto" name="productoEliminado"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="ControlDeProveedor" package="org.sergiotepaz.controlador" visibility="public" xPosition="1065.0" yPosition="10.0">
+      <Fields>
+        <Field name="instancia" type="ControlDeProveedor" visibility="private" isStatic="true"/>
+        <Field name="proveedores" type="ArrayList&lt;Proveedor&gt;" visibility="private" isStatic="true"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="getInstancia" returnType="ControlDeProveedor" visibility="public" isStatic="true"/>
+        <Method name="mostrarProveedores" returnType="ArrayList&lt;Proveedor&gt;" visibility="public"/>
+        <Method name="ListaDeProveedores" returnType="int" visibility="public"/>
+        <Method name="agregarProveedor" returnType="void" visibility="public">
+          <Argument type="Proveedor" name="proveedor"/>
+        </Method>
+        <Method name="actualizarProveedor" returnType="void" visibility="public">
+          <Argument type="Proveedor" name="proveedorAntiguo"/>
+          <Argument type="Proveedor" name="proveedorActualizado"/>
+        </Method>
+        <Method name="buscarProveedor" returnType="Proveedor" visibility="public">
+          <Argument type="int" name="id"/>
+        </Method>
+        <Method name="eliminarProveedor" returnType="void" visibility="public">
+          <Argument type="Proveedor" name="proveedorEliminado"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="ControlDeUsuario" package="org.sergiotepaz.controlador" visibility="public" xPosition="545.0" yPosition="395.0">
+      <Fields>
+        <Field name="instancia" type="ControlDeUsuario" visibility="private" isStatic="true"/>
+        <Field name="usuarios" type="ArrayList&lt;Usuario&gt;" visibility="private" isStatic="true"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="getInstancia" returnType="ControlDeUsuario" visibility="public" isStatic="true"/>
+        <Method name="mostrarUsuarios" returnType="ArrayList&lt;Usuario&gt;" visibility="public"/>
+        <Method name="ListaDeUsuarios" returnType="int" visibility="public"/>
+        <Method name="agregarUsuario" returnType="void" visibility="public">
+          <Argument type="Usuario" name="usuario"/>
+        </Method>
+        <Method name="actualizarUsuario" returnType="void" visibility="public">
+          <Argument type="Usuario" name="usuarioAntiguo"/>
+          <Argument type="Usuario" name="usuarioActualizado"/>
+        </Method>
+        <Method name="buscarUsuario" returnType="Usuario" visibility="public">
+          <Argument type="int" name="id"/>
+        </Method>
+        <Method name="eliminarUsuario" returnType="void" visibility="public">
+          <Argument type="Usuario" name="usuarioEliminado"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="ControlDeVenta" package="org.sergiotepaz.controlador" visibility="public" xPosition="1065.0" yPosition="395.0">
+      <Fields>
+        <Field name="instancia" type="ControlDeVenta" visibility="private" isStatic="true"/>
+        <Field name="ventas" type="ArrayList&lt;Venta&gt;" visibility="private" isStatic="true"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="getInstancia" returnType="ControlDeVenta" visibility="public" isStatic="true"/>
+        <Method name="mostrarVentas" returnType="ArrayList&lt;Venta&gt;" visibility="public"/>
+        <Method name="ListaDeVentas" returnType="int" visibility="public"/>
+        <Method name="agregarVenta" returnType="void" visibility="public">
+          <Argument type="Venta" name="venta"/>
+        </Method>
+        <Method name="actualizarVenta" returnType="void" visibility="public">
+          <Argument type="Venta" name="ventaAntigua"/>
+          <Argument type="Venta" name="ventaActualizada"/>
+        </Method>
+        <Method name="buscarVenta" returnType="Venta" visibility="public">
+          <Argument type="int" name="id"/>
+        </Method>
+        <Method name="eliminarCompra" returnType="void" visibility="public">
+          <Argument type="Venta" name="ventaEliminada"/>
+        </Method>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations>
+    <UseRelation source="org.sergiotepaz.controlador.ControlDeVenta" target="org.sergiotepaz.controlador.ControlDeVenta" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="org.sergiotepaz.controlador.ControlDeProveedor" target="org.sergiotepaz.controlador.ControlDeProveedor" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="org.sergiotepaz.controlador.ControlDeProducto" target="org.sergiotepaz.controlador.ControlDeProducto" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="org.sergiotepaz.controlador.ControlDeUsuario" target="org.sergiotepaz.controlador.ControlDeUsuario" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="instancia" source="org.sergiotepaz.controlador.ControlDeCliente" target="org.sergiotepaz.controlador.ControlDeCliente" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="instancia" source="org.sergiotepaz.controlador.ControlDeProducto" target="org.sergiotepaz.controlador.ControlDeProducto" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="org.sergiotepaz.controlador.ControlDeCliente" target="org.sergiotepaz.controlador.ControlDeCliente" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="instancia" source="org.sergiotepaz.controlador.ControlDeVenta" target="org.sergiotepaz.controlador.ControlDeVenta" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="instancia" source="org.sergiotepaz.controlador.ControlDeProveedor" target="org.sergiotepaz.controlador.ControlDeProveedor" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="instancia" source="org.sergiotepaz.controlador.ControlDeUsuario" target="org.sergiotepaz.controlador.ControlDeUsuario" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="instancia" source="org.sergiotepaz.controlador.ControlDeCompra" target="org.sergiotepaz.controlador.ControlDeCompra" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="org.sergiotepaz.controlador.ControlDeCompra" target="org.sergiotepaz.controlador.ControlDeCompra" sourceCardinality="1..1" targetCardinality="1..1"/>
+  </ClassDiagramRelations>
+</ClassDiagram>
